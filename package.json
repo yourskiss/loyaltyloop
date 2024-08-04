@@ -1,5 +1,5 @@
 {
-  "name": "llpwa",
+  "name": "loyaltyloop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "@ducanh2912/next-pwa": "^10.2.6",
+    "@next/third-parties": "^14.2.3",
+    "axios": "^1.6.8",
+    "crypto-js": "^4.2.0",
+    "framer-motion": "^11.1.7",
+    "js-cookie": "^3.0.5",
+    "next": "^14.2.3",
+    "platform": "^1.3.6",
+    "qr-scanner": "^1.4.2",
+    "react": "^18.3.1",
+    "react-countup": "^6.5.3",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-hook-form": "^7.51.3",
+    "react-otp-input": "^3.1.1",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.2",
+    "react-starfield": "^1.0.3",
+    "react-timer-hook": "^3.0.7",
+    "react-toastify": "^10.0.5",
+    "slick-carousel": "^1.8.1"
   }
 }

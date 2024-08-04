@@ -62,8 +62,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta name="background_color" content="#7A4FF3"/>
       <meta name="theme-color" content="#5A39A2"/>
-      <GoogleAnalytics gaId="G-xxxxxxxxx" />
-      <meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxxxxxxxx" />
+      
+      {/* <GoogleAnalytics gaId="G-xxxxxxxxx" />
+      <meta name="google-site-verification" content="xxxxxxxxxxxxxxxxxxxxxxxxxx" /> */}
 
       <body className={rbt.className}>
       

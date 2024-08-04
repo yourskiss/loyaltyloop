@@ -92,16 +92,16 @@ body { background-color: #5a39a2; margin:0;padding:0;box-sizing:border-box;line-
 
 /* ################### pwaPromptPopup ################### */
 .pwaPromptPopup { display: block; z-index:8; position: fixed; left: 50%; top: 0; transform: translateX(-50%); height: 100%; width: 100%; max-width: 1024px; float: left;  background-color: #000; background: rgba(0,0,0,0.4); }
-.pwaPromptPopup section { display: block; z-index:9;  position:absolute; left:50%;  transform: translateX(-50%); width: 95%; max-width:350px; height: auto;  float: left; background-color: #AFCDAF; overflow:visible; border-radius:10px; margin:0 auto; padding:1.5rem; box-sizing: border-box; }
+.pwaPromptPopup section { display: block; z-index:9;  position:absolute; left:50%;  transform: translateX(-50%); width: 95%; max-width:350px; height: auto;  float: left; background-color: #fff; overflow:visible; border-radius:10px; margin:0 auto; padding:1.5rem; box-sizing: border-box; }
 .pwaPromptContainer { width: 100%; float: left; margin:0; padding: 0; display: flex; justify-content:flex-start; align-items: center; }
-.pwaPromptContainer img { background: #fff;  border-radius: 50%; width: 70px; height: auto; margin: 0 20px 0 0; }
-.pwaPromptContainer h2 {  width:calc(100% - 90px); float: left; margin:0; padding: 0; text-align: left; color:#000; line-height: 1.2; font-size:18px;  text-transform: none; } 
+.pwaPromptContainer img { background: #7A4FF3;  border-radius: 50%; width: 70px; height: auto; margin: 0 20px 0 0; }
+.pwaPromptContainer h2 {  width:calc(100% - 90px); float: left; margin:0; padding: 0; text-align: left; color:#7A4FF3; line-height: 1.2; font-size:18px;  text-transform: none; } 
 .pwaPromptContainer h2 span { margin-top: 0.3rem; display: block; color:#464646; line-height: 1.2; font-size:14px;  text-transform: none; } 
 .pwaPromptPopup p {  width: 100%; float: left; margin:1rem 0 0 0; padding: 0;  text-align: right;  } 
-.pwaPromptButton { width:auto; display:block; float:right;  margin: 0 0 0 1rem; padding:0.7rem 1.2rem 0.5rem 1.2rem;  text-align: center;  background: #fff;  font-weight: normal; line-height: 1; font-size: 16px;  color:#383C3D;  border:none; transition: all 0.5s ease-out;  border-radius:25px;  text-decoration: none;   cursor: pointer;  text-transform: none; }
-.pwaPromptButton:hover { background: #383C3D;  color: #fff; transition: all 0.5s ease-in; }
-.pwaPromptButton.pwacancelBtn {  margin: 0;  background: none; color:#383C3D; }
-.pwaPromptButton.pwacancelBtn:hover { background: none; color:#fff; }
+.pwaPromptButton { width:auto; display:block; float:right;  margin: 0 0 0 1rem; padding:0.7rem 1.2rem 0.5rem 1.2rem;  text-align: center;  background: #5a39a2;  font-weight: normal; line-height: 1; font-size: 16px;  color:#fff;  border:none; transition: all 0.5s ease-out;  border-radius:25px;  text-decoration: none;   cursor: pointer;  text-transform: none; }
+.pwaPromptButton:hover { background: #fff;  color: #5a39a2; transition: all 0.5s ease-in; }
+.pwaPromptButton.pwacancelBtn {  margin: 0;  background: none; color:#5a39a2; }
+.pwaPromptButton.pwacancelBtn:hover { background: none; color:#7A4FF3; }
 
 
 /* ################### alertPopup ################### */

@@ -40,7 +40,7 @@ export default function RegistationComponent() {
   const [panErrors, setPanErrors] = useState('');
   
   const exceptThisSymbols = ["e", "E", "+", "-", "."];
- //  e.target.value.replace(/[e\+\-\.]/gi, "")
+  const symbolsExcept = ["+", "-", "."];
  
 
   const onInputmaxLength = (e) => {
@@ -335,6 +335,7 @@ export default function RegistationComponent() {
                     value={paninfo}
                     onInput={onInputmaxLength}
                     onChange={(e) => { setPaninfo(e.target.value.replace(/[^0-9a-z]/gi, '').toUpperCase()); setPanErrors('');  }}
+                    onKeyDown={(e) => symbolsExcept.includes(e.key) && e.preventDefault() }
                   />
                   <div className="registerLineText">Pan required for payment verification</div>
                   {panErrors && <span className="registerError">{panErrors}</span> }

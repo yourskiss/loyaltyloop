@@ -14,13 +14,13 @@ const domainname = process.env.NEXT_PUBLIC_DOMAIN_COOKIES;
 const setBearerCookies = (val) => {
   return Cookies.set('bearertoken',  val, { expires: new Date(new Date().getTime() + btTime), secure: true, sameSite: 'Strict', path: '/', domain:domainname });
 }
+  //  url:'https://api.getloyaltyloop.com/api/ApiAuth/authtoken',
 const setBearerToken = (pagevalue) => {
   axios({
     method: 'post',
     url: `${apiURL}ApiAuth/authtoken`,
-  //  url:'https://api.getloyaltyloop.com/api/ApiAuth/authtoken',
+
     data: JSON.stringify({ "userid": apiUsername, "password": apiPassword }), 
-    timeout: 4000,
     headers: {'Content-Type': 'application/json'},
   })
   .then(function (response) {

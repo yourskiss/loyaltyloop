@@ -53,6 +53,7 @@ export default function UpdateprofileComponent() {
     const browserInfo = browserdetails();
     
     const exceptThisSymbols = ["e", "E", "+", "-", "."];
+    const symbolsExcept = ["+", "-", "."];
 
     useEffect(() => {
         setLoading(true);
@@ -362,7 +363,7 @@ export default function UpdateprofileComponent() {
                         onInput={(e)=> e.target.value = e.target.value.slice(0, e.target.maxLength) }
                         value={ pan || '' }
                         onChange={(e)=> { setPan(e.target.value.replace(/[^a-z0-9]/gi, '').toUpperCase()); setErrorpan('');}}
-                        onKeyDown={(e) => exceptThisSymbols.includes(e.key) && e.preventDefault() }
+                        onKeyDown={(e) => symbolsExcept.includes(e.key) && e.preventDefault() }
                     />
                     <span className="registerError">{ errorpan && errorpan }</span> 
                 </div>

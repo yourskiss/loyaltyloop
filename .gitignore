@@ -37,7 +37,7 @@ next-env.d.ts
 
 
 #pwa
-.env
+.env.local
 fallback-development.js
 workbox-*.js
 workbox-*.js.map

@@ -126,13 +126,13 @@ useEffect(() => {
               <section className='dashboard_scanbg' onClick={()=> push("/scanqrcode")}>
                     <aside><Image className='dashboard_scan_img' src="/assets/images/dash-qr.png" width={100} height={100} alt="qr" quality={100} /></aside>
                     <h2>Scan QR Code</h2>
-                    <p>FOR YOUR KERAKOLL PRODUCTS</p>
+                    <p>FOR YOUR LOYALTYLOOP PRODUCTS</p>
               </section>
               <section className='dashboard_redeempointbg' onClick={redeemprompt }>
                     <aside ><Image src="/assets/images/redeempoints.png" width={99} height={115} alt="redeempoints" quality={100} /></aside>
                     <h5><CountUp duration={2} start={0}  delay={1}  end={rewardspoints} /> <em>Points</em></h5>
                     <h2>Redeem Points</h2>
-                    <p>IN YOUR CLUB WALLET</p>
+                    <p>IN YOUR WALLET</p>
               </section>
           </div>
         </div>

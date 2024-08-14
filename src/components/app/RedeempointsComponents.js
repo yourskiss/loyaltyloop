@@ -59,7 +59,7 @@ export default function RedeempointsComponents() {
                 </aside>
                 <h2>Redeem your points</h2>
                 <h3><CountUp duration={2} start={0}  delay={1} end={rewardspoints} /> <b>Points</b> </h3>
-                <p>Redeem Kerakoll Club points for exciting cash prizes!</p>
+                <p>Redeem loyaltyloop points for exciting cash prizes!</p>
             </div>  
             
             <Rewardform />

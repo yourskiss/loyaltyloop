@@ -72,7 +72,7 @@ export default function LoginPart({isMobStatus, getMobNumber, phonenumber}) {
   return (<>
     <form onSubmit={mobileSubmit}>
               <div className="registercontainer">
-                <div className="registerHead">Welcome to Kerakoll!</div>
+                <div className="registerHead">Welcome to LoyaltyLoop!</div>
                 <div className="registerField">
                   <div className="registertext">To proceed further please enter your mobile number.</div>
                   <div className="registerinputformobile">
